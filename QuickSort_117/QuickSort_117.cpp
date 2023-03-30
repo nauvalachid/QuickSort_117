@@ -46,4 +46,10 @@ void q_short(int low, int high)
 	if (low > high)						//langkah algoritma No. 1
 		return;
 
+	//Partition the list into two parts;
+	//one containing element less that or equal to pivot 
+	//OUther conntainning elements greather than pivot 
+
+	pivot = arr[low];					//Langkah ALgoritma No. 2
+
 	
